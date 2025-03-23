@@ -135,6 +135,32 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .video-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .video-grid video {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        border: 2px solid #8554D4;
+      }
+
+      .full-video {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .full-video video {
+        width: 80%;
+        max-width: 800px;
+        height: auto;
+        border-radius: 8px;
+        border: 2px solid #8554D4;
+      }
 
     </style>
 </head>
@@ -225,6 +251,22 @@
             <li>Designed social media content (Reels, TikToks, Instagram posts, YouTube shorts) to engage target audiences.</li>
             <li>Compiled all elements into a final branding package for portfolio presentation.</li>
           </ul>
+          <h3 style="text-align: center;">Social Videos</h3>
+          <div class="video-grid">
+            <video controls src="social1.mp4"></video>
+            <video controls src="social2.mp4"></video>
+            <video controls src="social3.mp4"></video>
+            <video controls src="social4.mp4"></video>
+          </div>
+          
+          <h3 style="text-align: center; margin-top: 30px;">Motion Graphics Ad</h3>
+          <div class="full-video">
+            <video controls src="Premier Protein brand redesign ad.mp4"></video>
+          </div>
+      </div>
+      <div id="takeaway" class="content-section">
+        <h2>Takeways</h2>
+        <p>This project strengthened my ability to develop a brand from strategy to execution while working within real-world constraints. The biggest challenge was [describe challenge], and I overcame it by [solution].</p>
       </div>
   </div>
   <script>
